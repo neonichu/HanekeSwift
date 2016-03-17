@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A095C9601980418C00CD0F4C"
-               BuildableName = "HanekeTests.xctest"
-               BlueprintName = "HanekeTests"
+               BlueprintIdentifier = "A15BE05E1C9AC7E900C82343"
+               BuildableName = "HanekeTests-tvOS.xctest"
+               BlueprintName = "HanekeTests-tvOS"
                ReferencedContainer = "container:Haneke.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -79,6 +79,30 @@
 		A0E8BFDC19CCAE1D00A4E2B0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8BFDB19CCAE1D00A4E2B0 /* Data.swift */; };
 		A0EE773219BFDFA500B315A0 /* FetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EE773119BFDFA500B315A0 /* FetcherTests.swift */; };
 		A0FDBF9219AD444500326016 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FDBF9119AD444500326016 /* Format.swift */; };
+		A15BE0641C9AC7E900C82343 /* CGSize+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18894C819C340C5008E9E4C /* CGSize+HanekeTests.swift */; };
+		A15BE0651C9AC7E900C82343 /* NetworkFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D364819C6D8870007586E /* NetworkFetcherTests.swift */; };
+		A15BE0661C9AC7E900C82343 /* NSFileManager+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6BA3B19ACA1A5007111E9 /* NSFileManager+HanekeTests.swift */; };
+		A15BE0671C9AC7E900C82343 /* HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03F7E7F19BF60040002511F /* HanekeTests.swift */; };
+		A15BE0681C9AC7E900C82343 /* DiskCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D7D6851997B57A000CAF46 /* DiskCacheTests.swift */; };
+		A15BE0691C9AC7E900C82343 /* CacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095C974198045D200CD0F4C /* CacheTests.swift */; };
+		A15BE06A1C9AC7E900C82343 /* UIImage+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9E04E198C03F80083574B /* UIImage+Test.swift */; };
+		A15BE06B1C9AC7E900C82343 /* DiskFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D39C019CF4BE000452BC4 /* DiskFetcherTests.swift */; };
+		A15BE06C1C9AC7E900C82343 /* XCTestCase+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D365419C6E9BE0007586E /* XCTestCase+Test.swift */; };
+		A15BE06D1C9AC7E900C82343 /* NSHTTPURLResponse+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BCE4761C3764000040B92C /* NSHTTPURLResponse+HanekeTests.swift */; };
+		A15BE06E1C9AC7E900C82343 /* String+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EE28119B18FE600572D17 /* String+HanekeTests.swift */; };
+		A15BE06F1C9AC7E900C82343 /* FormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EE27419AE1A6A00572D17 /* FormatTests.swift */; };
+		A15BE0701C9AC7E900C82343 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F58F919CCB1DA0009EBDE /* DataTests.swift */; };
+		A15BE0711C9AC7E900C82343 /* AsyncFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BCE4711C37551C0040B92C /* AsyncFetcher.swift */; };
+		A15BE0721C9AC7E900C82343 /* FetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EE773119BFDFA500B315A0 /* FetcherTests.swift */; };
+		A15BE0731C9AC7E900C82343 /* NSURLResponse+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D364F19C6E1050007586E /* NSURLResponse+HanekeTests.swift */; };
+		A15BE0741C9AC7E900C82343 /* FetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01E148819D7FEF7000247ED /* FetchTests.swift */; };
+		A15BE0751C9AC7E900C82343 /* NSData+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02088B919A89C6100CE8F01 /* NSData+Test.swift */; };
+		A15BE0761C9AC7E900C82343 /* UIButton+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD6E29E19E3467F00F44FCF /* UIButton+HanekeTests.swift */; };
+		A15BE0771C9AC7E900C82343 /* DiskTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6BA3E19ACA3C4007111E9 /* DiskTestCase.swift */; };
+		A15BE0781C9AC7E900C82343 /* UIImageView+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042110419C914CE005000B8 /* UIImageView+HanekeTests.swift */; };
+		A15BE0791C9AC7E900C82343 /* UIImage+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D7D6881997C4C4000CAF46 /* UIImage+HanekeTests.swift */; };
+		A15BE07B1C9AC7E900C82343 /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A095C9561980418C00CD0F4C /* Haneke.framework */; };
+		A15BE0851C9AC80A00C82343 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15BE0841C9AC80A00C82343 /* OHHTTPStubs.framework */; };
 		D18894C919C340C5008E9E4C /* CGSize+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18894C819C340C5008E9E4C /* CGSize+HanekeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +122,20 @@
 			remoteInfo = "Haneke-tvOS";
 		};
 		A0026EC019C9C02A004DE0C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A095C94D1980418C00CD0F4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A095C9551980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
+		A15BE0601C9AC7E900C82343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A095C94D1980418C00CD0F4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6393C5DA1C3B229200EB1FD8;
+			remoteInfo = "Haneke-tvOS";
+		};
+		A15BE0621C9AC7E900C82343 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A095C94D1980418C00CD0F4C /* Project object */;
 			proxyType = 1;
@@ -164,6 +202,9 @@
 		A0E8BFDB19CCAE1D00A4E2B0 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		A0EE773119BFDFA500B315A0 /* FetcherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetcherTests.swift; sourceTree = "<group>"; };
 		A0FDBF9119AD444500326016 /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		A15BE0821C9AC7E900C82343 /* HanekeTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HanekeTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15BE0831C9AC7E900C82343 /* HanekeTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HanekeTests copy-Info.plist"; path = "/Users/boris/Desktop/HanekeSwift/HanekeTests copy-Info.plist"; sourceTree = "<absolute>"; };
+		A15BE0841C9AC80A00C82343 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/tvOS/OHHTTPStubs.framework; sourceTree = "<group>"; };
 		D18894C819C340C5008E9E4C /* CGSize+HanekeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+HanekeTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +237,15 @@
 			files = (
 				87BCE4791C3767880040B92C /* Haneke.framework in Frameworks */,
 				63387B981C37728500E3800E /* OHHTTPStubs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15BE07A1C9AC7E900C82343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15BE0851C9AC80A00C82343 /* OHHTTPStubs.framework in Frameworks */,
+				A15BE07B1C9AC7E900C82343 /* Haneke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +324,12 @@
 		A095C94C1980418C00CD0F4C = {
 			isa = PBXGroup;
 			children = (
+				A15BE0841C9AC80A00C82343 /* OHHTTPStubs.framework */,
 				A095C9581980418C00CD0F4C /* Haneke */,
 				A095C9651980418C00CD0F4C /* HanekeTests */,
 				A0026E9B19C9BFBC004DE0C6 /* HanekeDemo */,
 				A095C9571980418C00CD0F4C /* Products */,
+				A15BE0831C9AC7E900C82343 /* HanekeTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -288,6 +340,7 @@
 				A095C9611980418C00CD0F4C /* HanekeTests.xctest */,
 				A0026E9A19C9BFBC004DE0C6 /* HanekeDemo.app */,
 				6393C5F71C3B229200EB1FD8 /* Haneke.framework */,
+				A15BE0821C9AC7E900C82343 /* HanekeTests-tvOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -474,6 +527,26 @@
 			productReference = A095C9611980418C00CD0F4C /* HanekeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A15BE05E1C9AC7E900C82343 /* HanekeTests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15BE07F1C9AC7E900C82343 /* Build configuration list for PBXNativeTarget "HanekeTests-tvOS" */;
+			buildPhases = (
+				A15BE0631C9AC7E900C82343 /* Sources */,
+				A15BE07A1C9AC7E900C82343 /* Frameworks */,
+				A15BE07D1C9AC7E900C82343 /* Resources */,
+				A15BE07E1C9AC7E900C82343 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15BE05F1C9AC7E900C82343 /* PBXTargetDependency */,
+				A15BE0611C9AC7E900C82343 /* PBXTargetDependency */,
+			);
+			name = "HanekeTests-tvOS";
+			productName = HanekeTests;
+			productReference = A15BE0821C9AC7E900C82343 /* HanekeTests-tvOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -512,6 +585,7 @@
 				A095C9551980418C00CD0F4C /* Haneke-iOS */,
 				6393C5DA1C3B229200EB1FD8 /* Haneke-tvOS */,
 				A095C9601980418C00CD0F4C /* HanekeTests */,
+				A15BE05E1C9AC7E900C82343 /* HanekeTests-tvOS */,
 				A0026E9919C9BFBC004DE0C6 /* HanekeDemo */,
 			);
 		};
@@ -549,10 +623,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A15BE07D1C9AC7E900C82343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		63387B991C37760000E3800E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/OHHTTPStubs.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		A15BE07E1C9AC7E900C82343 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -662,6 +757,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A15BE0631C9AC7E900C82343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15BE0641C9AC7E900C82343 /* CGSize+HanekeTests.swift in Sources */,
+				A15BE0651C9AC7E900C82343 /* NetworkFetcherTests.swift in Sources */,
+				A15BE0661C9AC7E900C82343 /* NSFileManager+HanekeTests.swift in Sources */,
+				A15BE0671C9AC7E900C82343 /* HanekeTests.swift in Sources */,
+				A15BE0681C9AC7E900C82343 /* DiskCacheTests.swift in Sources */,
+				A15BE0691C9AC7E900C82343 /* CacheTests.swift in Sources */,
+				A15BE06A1C9AC7E900C82343 /* UIImage+Test.swift in Sources */,
+				A15BE06B1C9AC7E900C82343 /* DiskFetcherTests.swift in Sources */,
+				A15BE06C1C9AC7E900C82343 /* XCTestCase+Test.swift in Sources */,
+				A15BE06D1C9AC7E900C82343 /* NSHTTPURLResponse+HanekeTests.swift in Sources */,
+				A15BE06E1C9AC7E900C82343 /* String+HanekeTests.swift in Sources */,
+				A15BE06F1C9AC7E900C82343 /* FormatTests.swift in Sources */,
+				A15BE0701C9AC7E900C82343 /* DataTests.swift in Sources */,
+				A15BE0711C9AC7E900C82343 /* AsyncFetcher.swift in Sources */,
+				A15BE0721C9AC7E900C82343 /* FetcherTests.swift in Sources */,
+				A15BE0731C9AC7E900C82343 /* NSURLResponse+HanekeTests.swift in Sources */,
+				A15BE0741C9AC7E900C82343 /* FetchTests.swift in Sources */,
+				A15BE0751C9AC7E900C82343 /* NSData+Test.swift in Sources */,
+				A15BE0761C9AC7E900C82343 /* UIButton+HanekeTests.swift in Sources */,
+				A15BE0771C9AC7E900C82343 /* DiskTestCase.swift in Sources */,
+				A15BE0781C9AC7E900C82343 /* UIImageView+HanekeTests.swift in Sources */,
+				A15BE0791C9AC7E900C82343 /* UIImage+HanekeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -679,6 +803,16 @@
 			isa = PBXTargetDependency;
 			target = A095C9551980418C00CD0F4C /* Haneke-iOS */;
 			targetProxy = A0026EC019C9C02A004DE0C6 /* PBXContainerItemProxy */;
+		};
+		A15BE05F1C9AC7E900C82343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6393C5DA1C3B229200EB1FD8 /* Haneke-tvOS */;
+			targetProxy = A15BE0601C9AC7E900C82343 /* PBXContainerItemProxy */;
+		};
+		A15BE0611C9AC7E900C82343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A095C9551980418C00CD0F4C /* Haneke-iOS */;
+			targetProxy = A15BE0621C9AC7E900C82343 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -933,6 +1067,47 @@
 			};
 			name = Release;
 		};
+		A15BE0801C9AC7E900C82343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HanekeTests copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.haneke.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OBJC_BRIDGING_HEADER = "HanekeTests/HanekeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A15BE0811C9AC7E900C82343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "HanekeTests copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.haneke.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OBJC_BRIDGING_HEADER = "HanekeTests/HanekeTests-Bridging-Header.h";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -977,6 +1152,15 @@
 			buildConfigurations = (
 				A095C9701980418C00CD0F4C /* Debug */,
 				A095C9711980418C00CD0F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15BE07F1C9AC7E900C82343 /* Build configuration list for PBXNativeTarget "HanekeTests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15BE0801C9AC7E900C82343 /* Debug */,
+				A15BE0811C9AC7E900C82343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
